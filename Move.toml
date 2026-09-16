@@ -1,0 +1,12 @@
+[package]
+name = "veHEADAL"
+edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
+published-at = "0x2520e3de754d9785d29b34e8f15a92556fee5492d54ea7f548c44ab10a87bc4e"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "b40cdedf4df6f0deaa4a46c1bf99c57029160202" }
+
+[addresses]
+veheadal = "0x0"
+
+
